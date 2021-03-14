@@ -1,0 +1,73 @@
+._mood-board{
+   
+}
+
+
+._color-box{
+   cursor:pointer;
+   height:50px;
+   width:250px;
+   font-size: 17px;
+   border:solid 1.5px rgb(216, 214, 214);
+   border-radius:5px;
+}
+
+._color-box:active{
+   border:solid 3.5px rgb(216, 215, 215);
+}
+
+._color-box:hover{
+   background-color: rgb(250, 249, 255)!important;
+}
+
+._picture-box{
+    height:370px;
+    width:550px;
+    border:solid 1px black;
+    border-radius:8px;
+ }
+
+ ._picture-box-wrapper{
+    position: relative;
+    cursor:grab;
+ }
+
+ ._picture-box-wrapper:hover  ._picture-icons{
+      display: flex;
+      height:30px;
+      cursor:pointer;
+      width:30px;
+      border:solid 0.5px black;
+      border-radius: 3px;
+   }
+  
+   ._picture-icons{display: none}
+
+ 
+
+ 
+ ._picture-box img{
+   height:370px;
+   width:550px;
+ }
+
+ ._add-ons-box{
+    height:125px;
+    width:150px;
+    border:solid 1px black;
+    border-radius:5px;
+ }
+
+ ._decorative-box{
+     height:85px;
+     width:180px;
+     border:solid 1px black;
+    border-radius:6px;
+ }
+
+ ._decorative-line{
+    height:2.2px;
+    width:40px;
+    border:solid 0.9px black;
+   border-radius:2px;
+}

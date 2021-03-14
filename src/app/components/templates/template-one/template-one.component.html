@@ -1,0 +1,78 @@
+<div class = "flex-start flex-strech
+      _mood-board p-4">
+   <div>
+       <div 
+         class = "mb-4  bg-light _color-box flex-center">
+         <strong [ngbTooltip] = "pickColorTip" 
+         class = "bg-secondary text-white flex-center mx-2" 
+         style = "
+         width:17px;height:17px;font-size: 12px;
+         border-radius: 50%;">&</strong>
+           <span style = "color:rgb(211, 211, 211)"
+            > בחר צבע מתוך התמונה
+          </span>
+         
+           
+       </div>
+       <div class = "mb-4  _color-box"></div>
+       <div class = "mb-4  _color-box"></div>
+       <div class = "  _color-box"></div>
+   </div>
+   <div class = "_picture-box-wrapper ml-5">
+       <div class = "_picture-box">
+          <img src = "../../../../assets/picture.png">
+       </div>
+       <div class = "flex-start" 
+         style = "position: absolute; right:10px; top:20px">
+           <div class = "flex-center _picture-icons">
+               <strong>א</strong>
+           </div>
+           <div class = "flex-center mx-3 _picture-icons">
+            <strong>ב</strong>
+           </div>
+       </div>
+   </div>
+   <div>
+       <div class = "flex-center">
+        <div class = "_add-ons-box"></div>
+       </div>
+
+       <!-- decorative-->
+       <div class = "flex-center" style = "height:40px">
+        <div style = "transform: rotate(90deg);" class = "_decorative-line"></div>
+       </div>
+       <div class = " flex-center flex-strech">
+        <div class = "flex-center">
+            <div class = "_decorative-line"></div>
+            <div class = "_decorative-line"></div>
+        </div>
+        <div class = " _decorative-box"></div>
+         <div class = "flex-center">
+           
+           
+         </div>
+       </div>
+       <div class = "flex-center" style = "height:40px">
+        <div style = "transform: rotate(90deg);" class = "_decorative-line"></div>
+       </div>
+      
+
+       <div class = "flex-center">
+        <div class = "_add-ons-box"></div>
+       </div>
+     
+  
+   </div>
+</div>
+
+
+
+
+
+
+<ng-template #pickColorTip>
+    <div>
+בחר צבע מתוך התמונה על ידי לחיצה על 
+הצבע הרצוי
+    </div>
+</ng-template>
